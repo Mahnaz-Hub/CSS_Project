@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Slider Page</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <header>
+   <div class="card-slider">
+            <nav>
+            <ul>
+                <li><a class="card"  href="#home">Home</a></li>
+                <li><a class="card" href="#gallery">City Gallery</a></li>
+                <li><a class="card" href="#day">City of the Day</a></li>
+                <li><a class="card" href="#submit">Submit a City</a></li>
+            </ul>
+            </nav>
+            <div class="search-bar">
+            <input type="text" placeholder="search" name="" >
+            <button type="button">Search</button>
+        </div>
+      </div>
+   </header>     
+   <div class="slider-container">     
+     <div class="slider">
+    <img src="../a/images/img1.jpg" alt="">
+    <img src="../a/images/img2.jpg" alt="">
+    <img src="../a/images/img3.jpg" alt="">
+    <img src="../a/images/img4.jpg" alt="">
+    <img src="../a/images/img5.jpg" alt="">
+    <img src="../a/images/img1.jpg" alt="">
+    <img src="../a/images/img2.jpg" alt="">
+    <img src="../a/images/img3.jpg" alt="">
+    <img src="../a/images/img4.jpg" alt="">
+    <img src="../a/images/img5.jpg" alt="">
+     </div>
+     <div >
+      <h1 id="title">Explore Afghan Cities</h1>
+    
+     <p style="font-size:25px; text-align: center; ">Celebrating the rich heritage and 
+        resilient spirit of Afghanistan — a land of timeless traditions, 
+        vibrant culture, and inspiring stories that connect past, present, and future.</p>
+        </div>
+  </div>
+  <div class="section" id="home">
+    <h2>Home</h2>
+    <p>
+  Afghanistan is a land of majestic mountains, rich history, and vibrant culture. From ancient cities
+ and timeless traditions to stunning natural landscapes, Afghanistan offers a unique journey through 
+ beauty and resilience. Explore its diverse heritage, artistic spirit, and the warmth of its people.
+    </p>
+    <img src="../a/images/img10.jpg"  alt="">
+    <img src="../a/images/img11.jpg"  alt="">
+    <img src="../a/images/img12.jpg"  alt="">
+  </div>
+
+  <div class="section" id="gallery">
+    <h2>City Gallery</h2>
+    <p id="">Here you can see beautiful pictures of cities around the world.</p>
+    <div>
+      <h2> Kabul: The Beating Heart of Afghanistan</h2>
+      <p>
+Kabul, the ancient and ever-changing capital of Afghanistan, is a city where history and resilience walk hand in hand.
+ Nestled among rugged mountains, Kabul is more than just a city—it is the soul of the nation, echoing with poetry, music,
+and the scent of freshly brewed green tea. Its streets are alive with the voices of diverse peoples—Pashtuns, Tajiks, Hazaras,
+ and many more—each adding color to the city’s cultural mosaic.
+Kabul is a place where past and present meet—where gardens bloom beside ruins, and where the spirit of its people rises like dawn after a long night.
+      </p>
+      <img src="../a/images/img6.jpg"  alt="">
+      <img src="../a/images/img7.jpg"  alt="">
+    </div>
+    <div>
+      <h2>Herat: The City of Poetry and Blue Domes</h2>
+      <p>
+        
+
+Herat, the jewel of western Afghanistan, is a city steeped in art, history, and elegance. Once a center of the Persian empire and a key stop on the Silk Road, Herat carries
+ the grace of centuries in its ancient minarets, turquoise-tiled mosques, and bustling bazaars. Known as the "City of Poets,
+ " Herat gave voice to some of the region’s greatest artists and scholars, and its culture still echoes with the verses o
+ f Rumi and Jami.
+
+Heratis are known for their deep sense of hospitality, refined manners, and pride in their heritage. The city’s architecture—especially the majestic 
+Herat Citadel and the Friday Mosque—reflects a rich blend of Persian and Islamic art.
+Herat is not just a city—it is a timeless melody of beauty, resilience, and refinement, where every stone and street holds
+the poetry of a proud and enduring people.
+      </p>
+      <img src="../a/images/img8.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="section" id="gallery">
+    <h2>City of the Day</h2>
+    <h3>Badakhshan: The Land of Mountains and Mysticism</h3>
+    <p>
+Badakhshan, nestled in the majestic northeast corner of Afghanistan, is a land of soaring mountains, 
+crystal-clear rivers, and ancient mystery. Isolated and enchanting.It is Known
+  for its natural beauty and spiritual depth, Badakhshan has long been a sanctuary for poets, mystics, and travelers seeking the soul of the land.
+The people of Badakhshan are proud, peaceful, and deeply rooted in tradition. Many speak Dari and local Pamiri l
+anguages, preserving a unique cultural identity through song, folklore, and poetry. Life in the remote valleys is simpl
+e but rich in meaning, guided by strong community bonds and a profound connection to nature.
+</p>
+<img src="../a/images/img9.jpg"  alt="">
+  </div>
+
+  <div class="section" >
+    <h2>Submit a City</h2>
+    <p>Know a great city? Submit its details here and share it with the world.</p>
+    <br>
+    <div id="form">
+    <form action="/submit-city" method="post">
+  <label>Name of the city/ Province:</label>
+  <input type="text" name="cityName" required><br><br>
+
+  <label for="description">Cultural Details:</label>
+  <textarea id="description" name="description" rows="5" cols="50"></textarea><br><br>
+
+  <label>City Image Link (optional):</label>
+  <input type="url" name="imageUrl"><br><br>
+
+  <label>Your Name:</label>
+  <input type="text" name="submitterName"><br><br>
+
+  <label>Contact Information:</label>
+  <input type="text or email" name=""><br><br>
+
+  <input id="submit" type="submit" value="Submit Province">
+</form>
+    </div>
+  </div>
+
+
+  <footer>
+  <div class="footer">
+    Thank you for visiting. We honor and celebrate the rich culture, history,
+     and spirit of Afghanistan — a land of diversity, resilience, and timeless beauty. May this p
+     latform inspire understanding and appreciation for Afghanistan’s vibrant heritage."
+  </div>
+  </footer>
+</body>
+</html>
